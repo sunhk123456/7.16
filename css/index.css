@@ -1,0 +1,101 @@
+body {
+    font-family: "微软雅黑";
+    padding: 0px;
+    margin: 0px;
+}
+
+div {
+    display: block;
+}
+
+#site-nav .menu-hd,
+#site-nav .sn-b,
+#site-nav .sn-cart,
+#site-nav .sn-home,
+#site-nav .sn-login,
+#site-nav .sn-logout,
+#site-nav .sn-mobile,
+#site-nav .sn-mybrand,
+#site-nav .sn-point,
+#site-nav .sn-quick-menu .sn-cart,
+#site-nav .sn-register,
+#site-nav .sn-seller-center {
+    padding: 0 10px;
+}
+
+
+/* 开头开始 */
+
+#site-nav,
+.mui-top-banner-990 {
+    min-width: 990px;
+}
+
+#footer,
+#site-nav {
+    font-family: "Microsoft YaHei", tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+}
+
+#site-nav {
+    width: auto;
+    height: 26px;
+    position: relative!important;
+    background: #f2f2f2;
+    /* background-color: black; */
+    z-index: 99999;
+    -webkit-transform: translate3d(0, 0, 0);
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.sn-edge,
+#sn-bg,
+.hidden {
+    display: none;
+}
+
+#sn-bd {
+    position: relative;
+    width: 990px;
+    margin: auto;
+    width: 1230px;
+    left: -15px;
+}
+
+b {
+    font-weight: bold;
+}
+
+#site-nav .sn-edge {
+    display: none;
+}
+
+#site-nav .sn-container:after,
+#sn-bd:after {
+    content: '\20';
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+#site-nav .sn-container {
+    position: relative;
+    height: 32px;
+    width: 100%;
+    color: #999;
+    padding-left: 50px;
+}
+
+#site-nav .sn-login {
+    padding-left: 20px;
+}
+
+#site-nav .sn-login-info {
+    height: 32px;
+    line-height: 32px;
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+}
+
+
+/* 开头结束 */
