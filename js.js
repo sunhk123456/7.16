@@ -178,7 +178,7 @@ var nei = document.querySelectorAll(".neirong")
 console.log(nei)
 for (let i = 0; i < lis.length; i++) {
     console.log(1)
-    lis[i].onclick = function() {
+    lis[i].onmouseover = function() {
         for (var j = 0; j < lis.length; j++) {
             lis[j].style.background = "none";
             nei[j].style.display = "none";
